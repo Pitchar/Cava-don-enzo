@@ -1,0 +1,176 @@
+/*incluir fuente desde google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+
+/* * = selector universal para reseteo de estilos por default del html*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none;
+}
+
+header{
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    top: 0;
+    width: 100%;
+    display: inline;
+    margin: 0 auto;
+}
+.cava{
+    width: 10%;
+}
+.navcolubna1{
+    padding: 10px 20px;
+}
+.navcolubna3{
+    margin-bottom: 2%;
+}
+.formheader{
+    background-color: rgb(47, 99, 60);
+    padding: 10px 20px;
+}
+nav{
+    background-color: rgb(87, 38, 88);
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul .nav-item{
+    display: inline;
+
+}
+nav ul a{
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    margin-left: 20px;
+}
+h1{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 50px;
+    margin: 30px;
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+h4{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.malbechome{
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+
+.home{
+    text-align: center;
+    border: solid 1px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-color: black;
+    border-radius: 30px;
+    width: 25%;
+    padding: 20px;
+    margin: 30px;
+}
+.home p{
+    margin-bottom: 20px;
+}
+.productoshome{
+    padding: 5%;
+}
+.uvapreferida{
+    background-color: #f3e5ec;
+    padding: 5%;
+}
+.iconoshome{
+    text-align: center;
+    border-radius: 30px;
+    width: 25%;
+    padding: 20px;
+    margin: 30px;
+}
+.iconoshome img{
+    margin-bottom: 20px;
+}
+.email{
+    background-color: #0f5036;
+    padding: 5%;
+    font-family: 'Montserrat';
+}
+.email h2{
+    color: white;
+    text-align: center;
+}
+#femail{
+    color: white;
+    padding: 0 16%;
+    font-family: 'Montserrat';
+    font-size: 20px;
+
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    padding: 3%;
+}
+.cuenta{
+    text-align: center;
+    border: solid 1px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-color: black;
+    border-radius: 30px;
+    width: 25%;
+    padding: 20px;
+    margin: 30px;
+}
+.fcuenta {
+    color: black;
+}
+.pizzarecetas{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.recetas{
+    text-align: center;
+    border: solid 1px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-color: black;
+    border-radius: 30px;
+    width: 25%;
+    padding: 20px;
+    margin: 30px;
+}
+.recetas p {
+    margin-bottom: 20px;
+}
+.nosotros{
+    padding: 5%;
+}
+.sobrenosotros{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-bottom: 20px;
+}
