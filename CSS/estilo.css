@@ -136,14 +136,16 @@ footer{
     padding: 3%;
 }
 .cuenta{
-    text-align: center;
     border: solid 1px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-color: black;
     border-radius: 30px;
-    width: 25%;
+    width: 100%;
     padding: 20px;
-    margin: 30px;
+}
+.pcuenta{
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .fcuenta {
     color: black;
@@ -185,5 +187,8 @@ footer{
     }
     .iconoshome{
         padding-bottom:10%;
+    }
+    .cuenta{
+        margin-bottom: 10%;
     }
 }
