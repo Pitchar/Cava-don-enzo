@@ -5,82 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/estilo.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
     <title>Recetas</title>
 </head>
 <body>
     <header>
-        <div class="navcolubna1">
-            <a href="./index.html">
-            <img class="cava" src="./Imagenes/CAVA (5).png" alt="Logo de la marca Cava don Enzo"></a>
-        </div>
-        <div class="navcolubna2">
-            <form action="" class="formheader">
-                <label for="search">Buscar producto</label>
-                <input type="search">
-                <button type="submit">Buscar</button>
-            </form>
-        </div>
-        <div class="navcolubna3">
-            <nav>
-                <ul>
-                <li class="nav-item">
-                    <a href="./tienda.html">Tienda</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./cuenta.html">Cuenta</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./sobre_nosotros.html">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./recetas.html">Recetas</a>
-                </li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                <img src="./Imagenes/CAVA (5).png" alt="Logo de la marca Cava don Enzo" width="100" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./cuenta.html">Cuenta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sobre_nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./recetas.html">Recetas</a>
+                        </li>       
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
 </header>
-<section class="precetas">
-    <div class="recetas">
+<section class="container-xll crecetas">
+    <div class="row">  
+    <div class="col-6 col-md-3">
+        <div class="recetas">
         <img class="pizzarecetas" src="./Imagenes/Pizza.png" alt="Foto de una pizza cacera">
         <h3>Pizza Caprece</h3>
         <p>Receta a mano de Don Enzo Receta para la pizza caprese, Ingredientes...</p>
-        <button>
+        <button class="btn btn-success">
         Leer más
         </button>
+        </div>
     </div>
-    <div class="recetas">
+    <div class="col-6 col-md-3">
+        <div class="recetas">
         <img class="pizzarecetas" src="./Imagenes/Pizza.png" alt="Foto de una pizza cacera">
         <h3>Pizza Caprece</h3>
         <p>Receta a mano de Don Enzo Receta para la pizza caprese, Ingredientes...</p>
-        <button>
+        <button class="btn btn-success">
         Leer más
         </button>
+        </div>
     </div>
-    <div class="recetas">
+    <div class="col-6 col-md-3">
+        <div class="recetas">
         <img class="pizzarecetas" src="./Imagenes/Pizza.png" alt="Foto de una pizza cacera">
         <h3>Pizza Caprece</h3>
         <p>Receta a mano de Don Enzo Receta para la pizza caprese, Ingredientes...</p>
-        <button>
+        <button class="btn btn-success">
         Leer más
         </button>
+        </div>
+    </div>
+    <div class="col-6 col-md-3">
+        <div class="recetas">
+        <img class="pizzarecetas" src="./Imagenes/Pizza.png" alt="Foto de una pizza cacera">
+        <h3>Pizza Caprece</h3>
+        <p>Receta a mano de Don Enzo Receta para la pizza caprese, Ingredientes...</p>
+        <button class="btn btn-success">
+        Leer más
+        </button>
+        </div>
+    </div>
     </div>
 </section>
-<section class="email">
-    <div>
+<section class="container-xll email">
+    <div class="row text-center">
         <h2>Recibí todas las novedades y los mejores descuentos</h2>
-        <form id="femail" action="">
-            <label for="">Nombre</label>
-            <input type="text">
-            <label for="">Email</label>
-            <input type="email">
-            <input type="submit" value="Enviar">
-        </form>
     </div>
+        <form action="">
+            <div class="row g-3">
+                <div class="col md-4">
+                <label for="inputFirstname" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" placeholder="Nombre completo" aria-label="Nombre">
+                </div>
+                <div class="col md-4">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <button type="submit" class="btn btn-success">Si Quiero</button>
+            </div>
+        </form>
 </section>
 <footer>
     <p>Todos los derechos reservados © 2023</p>
 </footer>
-
+<script src="./js/bootstrap.bundle.js"></script> 
 
 </body>
 </html>
