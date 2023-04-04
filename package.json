@@ -1,11 +1,14 @@
 {
-  "name": "cava-don-enzo",
+  "name": "cava_don_enzo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tienda e-commerce",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "joaquin vezzoni",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.60.0"
+  }
 }
