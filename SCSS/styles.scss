@@ -284,6 +284,18 @@ footer{
     .tiendaH1 h1{
         padding: 10%;
     }
+    .contenedor{
+        .carta{
+        padding: 15px 35px;     
+        max-width: 200px;
+        h4{
+            font-size: 18px;
+        }
+        img{
+            margin-bottom: 10px;
+        }
+        }
+    }
     .recetas{
         width: 100%;
         margin: 0;
@@ -305,5 +317,10 @@ footer{
     .crecetas{
         padding: 5%;
         margin-right: 0;
+    }
+    .nosotros{
+        img{
+            width: 400px;
+        }
     }
 }
